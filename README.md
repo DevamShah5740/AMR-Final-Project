@@ -82,10 +82,29 @@ The work demonstrates how kinematic and dynamic models are integrated with contr
 
 
 ## Files
-- Final presentation: final_presentation.pptx
-- Straight line (v=x, ω=0) + PID + animation: straight_line.py
-- Circular motion (v=x, ω=y) + PID + animation: circular_motion.py
-- Obstacle avoidance (2 obstacles) + animation: obstacle_avoidance.py
+AMR_Final_DevamShah.pptx
+Final presentation for the AMR project, covering system modeling, control methodology, motion planning, results, and challenges.
+
+kinematicslinear.py
+Straight-line motion simulation of a 3-wheeled differential drive robot
+(linear velocity v = x, angular velocity ω = 0)
+Includes kinematics, wheel dynamics, PID control, and animation.
+
+kinematicsangular.py
+Circular motion simulation of a 3-wheeled differential drive robot
+(linear velocity v = x, angular velocity ω = y)
+Includes kinematics, dynamics, PID control, and animation.
+
+ObstacleAvoidance.py
+Motion planning and obstacle avoidance simulation using artificial potential fields
+Demonstrates navigation around two obstacles with safety (no-go) zones and animation.
+
+tests_and_simulations/
+Contains documentation and external links to simulation videos
+(videos are hosted externally due to GitHub file size limitations).
+
+requirements.txt
+List of Python dependencies required to run the simulations.
 
 ## Setup
 ```bash
