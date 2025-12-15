@@ -77,34 +77,32 @@ The work demonstrates how kinematic and dynamic models are integrated with contr
 - **Over-aggressive obstacle repulsion:** resolved by capping repulsive forces and inflating obstacles consistently
 
 ---
+## Files Description
 
-## Repository Structure
+- **AMR_Final_DevamShah.pptx**  
+  Final presentation covering system modeling, control methodology, motion planning, results, and challenges.
 
+- **kinematicslinear.py**  
+  Straight-line motion simulation of a 3-wheeled differential drive robot  
+  *(linear velocity v = x, angular velocity ω = 0)*.  
+  Includes kinematics, wheel dynamics, PID control, and animation.
 
-## Files
--AMR_Final_DevamShah.pptx
--Final presentation for the AMR project, covering system modeling, control methodology, motion planning, results, and challenges.
+- **kinematicsangular.py**  
+  Circular motion simulation of a 3-wheeled differential drive robot  
+  *(linear velocity v = x, angular velocity ω = y)*.  
+  Includes kinematics, dynamics, PID control, and animation.
 
--kinematicslinear.py
--Straight-line motion simulation of a 3-wheeled differential drive robot
--(linear velocity v = x, angular velocity ω = 0)
--Includes kinematics, wheel dynamics, PID control, and animation.
+- **ObstacleAvoidance.py**  
+  Motion planning and obstacle avoidance simulation using artificial potential fields.  
+  Demonstrates navigation around two obstacles with safety (no-go) zones and animation.
 
--kinematicsangular.py
--Circular motion simulation of a 3-wheeled differential drive robot
--(linear velocity v = x, angular velocity ω = y)
--Includes kinematics, dynamics, PID control, and animation.
+- **tests_and_simulations/**  
+  Contains simulation videos demonstrating straight-line motion, circular motion, and obstacle avoidance.  
+  *(Videos are hosted externally due to GitHub file size limitations.)*
 
--ObstacleAvoidance.py
--Motion planning and obstacle avoidance simulation using artificial potential fields
--Demonstrates navigation around two obstacles with safety (no-go) zones and animation.
+- **requirements.txt**  
+  Lists the Python dependencies required to run the simulations.
 
--tests_and_simulations/
--Contains documentation and external links to simulation videos
--(videos are hosted externally due to GitHub file size limitations).
-
--requirements.txt
--List of Python dependencies required to run the simulations.
 
 ## Setup
 ```bash
